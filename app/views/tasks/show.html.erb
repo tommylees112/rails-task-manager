@@ -1,0 +1,12 @@
+<h1>Task:</h1>
+
+<h2>
+  <%= @task.name %>
+</h2>
+<p>
+  <%= @task.description %>
+</p>
+<p>
+  <%= @task.done ? "Done" : "To-Do" %>
+</p>
+<%= link_to "Home", tasks_path %>
